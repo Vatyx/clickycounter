@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #eee
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#wards {
+    margin: 10px;
+    height: 500px;
+    flex-grow: 2;
+    background: green;
+}
+
+#counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-grow: 1;
+    background: red;
+}
+
+#footer {
+    margin: 10px;
+    flex-grow: .3;
+    background: grey;
+}
+
+#ward {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    cursor: pointer;
+}
